@@ -1,4 +1,4 @@
-/*inital JavaScript- adding basic code */
+/*inital JavaScript- adding basic code: creating h2 element w/txtContent */
 const h2 = document.createElement('h2');
 h2.textContent = "This content added by JavaScript";
 
