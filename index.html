@@ -3,14 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--connect to CSS file-->
+    <!--connect to external CSS file-->
     <link rel="stylesheet" href="style.css">
     <title>Wedding Invitation Planner</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <!--connect to JavaScript file-->
+    <h1>Wedding Invitation Planner</h1>
+    <div class="wrapper">
+        <!--navbar with design choices-->
+        <header>
+            <nav class="btn">
+                <button class="b1" onClick="myFunction()">Design 1</button>
+                <button class="b2" onClick="myFunction2()">Design 2</button>
+                <button class="b3" onClick="myFunction3()">Design 3</button> 
+            </nav>
+        </header>
+
+        <hr>
+        <br>
+
+        <!--form input begins-->
+        <section class="grid-col">
+            <div class="left-half">
+                <div class="form">
+                    <h2>Guest Information</h2>
+                    <br>
+                    <label>1st Name:</label>
+                    <input type="text" id="name" onkeypress="getName()">
+                    <br>
+                    <br>
+                    <label>2nd Name:</label>
+                    <input type="text" id="name" onkeypress="getName()">
+                    <br>
+                    <br>
+                    <label>Last Name:</label>
+                    <input type="text" id="name" onkeypress="getName()">
+                    <br>
+                    <br>
+                    <label>Date:</label>
+                    <input type="datetime" id="name" onkeypress="getName()">
+                    <br>
+                    <br>
+                    <label>Venue:</label>
+                    <input type="text" id="name" onkeypress="getName()">
+                </div>
+            </div>
+
+        <!--live typing begins-->
+            <div class="right-half">
+                
+            </div>
+        </section>
+
+
+<!--footer copyright begins-->
+<footer>
+    <h3>Design with love &hearts; by JJ ~ Copyright &copy; 2021</h3>
+</footer>
+<!--footer copyright ends-->        
+</div>
+    <!--connect to external JavaScript file-->
     <script src="script.js"></script>
 </body>
 </html>
