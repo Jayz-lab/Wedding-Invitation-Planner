@@ -40,8 +40,7 @@ hr {
 
 .btn {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 7px;
+    padding-top: 100px;
 }
 
 /* Grid column */
@@ -73,7 +72,7 @@ hr {
 /*form field begins*/
 .form {
     position: relative;
-    top: 20%;
+    /*top: 0%;*/
     text-align: center;
     padding: 1rem;
 }
@@ -82,7 +81,7 @@ hr {
 label {
     display: inline-block;
     width: 90px;
-    text-align: left;/*form text alignmentment*/
+    text-align: right;/*form text alignmentment*/
 }
 
 input {
