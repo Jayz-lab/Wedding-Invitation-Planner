@@ -22,5 +22,5 @@ While you're going to use form input elements, you will not be submitting data t
 Wireframe<br>
 Initial idea
 
-Final
-<img src="" height="550px">
+Completed Project<br>
+<img src="image/planner.PNG" height="550">
