@@ -30,6 +30,31 @@ function design3(){
     .src="/image/image3.jpg";
 }
 
-//live text
-//const elemIDFont = document.getElementById('msg-area');
+//Form field live text
+function getName() {
+    var nam = document.getElementById('name').value;
+    document.getElementById("input").innerHTML = "" + nam;
+}
 
+function getDate() {
+    var d = document.getElementById('date').value;
+    document.getElementById("input2").innerHTML = "" + d;
+}
+
+function getVenue() {
+    var v = document.getElementById('venue').value;
+    document.getElementById("input3").innerHTML = "" + v;
+}
+
+/*
+function getName() {
+    var nameStr = document.getElementById('name').value;
+    document.getElementById("initial").innerHTML = nameStr.substr(0,1).toUpperCase();
+};
+
+function getName() {
+    console.log("I am activated");
+    var nameStr = document.getElementById('name').value;
+    document.getElementById("initial").innerHTML = nameStr.substr(0,1).toUpperCase();
+};
+*/

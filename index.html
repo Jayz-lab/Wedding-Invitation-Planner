@@ -33,25 +33,26 @@
                 <!--design choices begins-->    
                 <div class="form">                   
                     <hr>
-                    <br><br>
-                    <label>1st Name:</label>
-                    <input type="text" id="name" onkeypress="getName()">
+                    <br><br><br>
+                    <label>Hosts:</label>
+                    <input type="text" placeholder="First & Last Name Please!" id="name" onkeypress="getName()">
                     <br>
                     <br>
+                    <!--
                     <label>2nd Name:</label>
-                    <input type="text" id="Name2" onkeypress="getName2()">
+                    <input type="text" id="Name" onkeypress="getName()">
                     <br>
                     <br>
                     <label>Last Name:</label>
-                    <input type="text" id="lastname" onkeypress="lastName()">
+                    <input type="text" id="lastname" onkeypress="getName()">
                     <br>
-                    <br>
+                    <br>-->
                     <label>Date:</label>
-                    <input type="datetime" id="name" onkeypress="getName()">
+                    <input type="text" placeholder="Enter the Date its Happening!" id="date" onkeypress="getDate()">
                     <br>
                     <br>
                     <label>Venue:</label>
-                    <input type="text" id="name" onkeypress="getName()">
+                    <input type="text" placeholder="Where are you having it!" id="venue" onkeypress="getVenue()">
                 </div>
             </div>
 
@@ -60,10 +61,12 @@
             <div class="image-wrapper">
                 <img class="image" id="myImage" src="">
                 <div class="imgtext" class="messageArea" id="msg-area">
-                    <p>&hearts;<br>You are cordially invited to the Wedding of </p>
-                    <span id="initial"></span>
-                    <span id="2ndInitial"></span>
-                    <span id="lastName"></span>
+                    <p>&hearts;&hearts;&hearts;<br><br>You are cordially invited to the Wedding of </p>
+                    <span id="input"></span>
+                    <p>&hearts; on the &hearts;</p>
+                    <span id="input2"></span>
+                    <p>&hearts; @ &hearts;</p>
+                    <span id="input3"></span>
                 </div>
             </div>
                 
@@ -75,7 +78,7 @@
 <br>
 <!--footer copyright begins-->
 <footer>
-    <h3>Design with love by JJ ~ Copyright &copy; 2021</h3>
+    <h3>Design with love &hearts; by JJ ~ Copyright &copy; 2021</h3>
 </footer>
 <!--footer copyright ends-->        
 </div>
