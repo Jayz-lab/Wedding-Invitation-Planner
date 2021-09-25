@@ -72,13 +72,27 @@ hr {
 	position: relative;/*relative to normal position*/
 }
 
-/*fitting image in wrapper*/
+/*fitting image choices in wrapper*/
 img {
     position:inherit;/*explicitly sets the value to that of the parent*/
     width: 100%;
     height: 100%;
     display: block; /* remove extra space below image */
     overflow: hidden;
+}
+
+/*text over image styling*/
+.imgtext {
+    text-align: center;
+    position: absolute;/*position: absolute; is positioned relative to the nearest positioned ancestor instead of viewport*/
+    top: 80%;
+    left: 50%;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Luminari;
+    transform: translate(-50%, -50%);
+    /*transform CSS property lets you rotate, scale, skew, or translate an element*/
+    /*translate() CSS function repositions an element in the horizontal and/or vertical directions*/
 }
 
 /*form field begins*/
