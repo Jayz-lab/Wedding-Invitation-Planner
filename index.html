@@ -20,12 +20,17 @@
         <!--form input begins-->
         <section class="grid-col">
             <div class="left-half">
-                <!--design choices begins-->
-                <nav class="btn">
-                        <button class="b1" onClick="myFunction()">Design 1</button>
-                        <button class="b2" onClick="myFunction2()">Design 2</button>
-                        <button class="b3" onClick="myFunction3()">Design 3</button> 
+                <nav class="btnGroup">
+                    <!--color change
+                    <button class="pointer" onclick="changeBackground('#d2f5e0')">Design 1</button>
+                    <button class="pointer" onclick="changeBackground('#2196f3')">Design 2</button>
+                    <button class="pointer" onclick="changeBackground('#ff5722')">Design 3</button>
+                    -->
+                    <button class="pointer" onclick=design1();>Design 1</button>
+                    <button class="pointer" onclick=design2();>Design 2</button>
+                    <button class="pointer" onclick=design3();>Design 3</button>
                     </nav>
+                <!--design choices begins-->    
                 <div class="form">                   
                     <hr>
                     <br><br>
@@ -51,12 +56,17 @@
             </div>
 
         <!--live typing begins-->
-            <div class="right-half">
+        <div class="right-half">
+            <div class="image-wrapper">
+                <img class="image" id="myImage" src="">
+            </div>
                 
             </div>
+        </div>  
         </section>
 
-
+<br>
+<br>
 <!--footer copyright begins-->
 <footer>
     <h3>Design with love &hearts; by JJ ~ Copyright &copy; 2021</h3>

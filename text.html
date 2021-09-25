@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+      <style>
+         img{
+         height: 500px;
+         width: 450px;
+         }
+         h1{
+         color: darkgreen;
+         margin-top: 20px;
+         font-family: Comic Sans MS, cursive, sans-serif;
+         }
+         .button{
+         margin-left: 45%;
+         }
+      </style>
+
+
+      <script>
+         function design1(){
+             document.getElementById('myImage')
+             .src="/image/image1.jpg";
+             document.getElementById('message')
+             .innerHTML="Hii! GeeksforGeeks people";
+         }
+          
+         function design2(){
+             document.getElementById('myImage')
+             .src="/image/image2.jpg";
+             document.getElementById('message')
+             .innerHTML="Bye! GeeksforGeeks people";
+         }
+
+         function design3(){
+             document.getElementById('myImage')
+             .src="/image/image3.jpg";
+             document.getElementById('message')
+             .innerHTML="Bye! GeeksforGeeks people";
+         }
+
+
+      </script>
+
+
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+               <h1 id="message">
+                   Hii! GeeksforGeeks people
+               </h1>
+               <img  id="myImage" src="./image/image1.jpg">
+            </div>
+            <div class="col-md-3"></div>
+         </div>
+      </div>
+      <div class="button">
+         <button class="btn btn-warning" onclick=design1();>Design 1</button>
+         <button class="btn btn-success" onclick=design2();>Design 2</button>
+         <button class="btn btn-success" onclick=design3();>Design 3</button>
+      </div>
+   </body>
+</html>
