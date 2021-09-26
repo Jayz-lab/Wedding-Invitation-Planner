@@ -18,9 +18,15 @@ Weddings. They're so stressful they often undermine the success of the endeavor 
 
 While you're going to use form input elements, you will not be submitting data to a remote server. You'll be using the power of JavaScript to do live, on-screen updates. Adding persistence will come in a later iteration ;).
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Wireframe<br>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wireframe
+- I wanted a simple design that meets the requirement for the project.
+- I decided to do away with some of the components in the final product.
+- I learnt lots building this.
+
 <img src="image/final.jpg" height="550">
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Completed Project Demo<br>
 
