@@ -23,4 +23,4 @@ Wireframe<br>
 <img src="image/final.jpg" height="550">
 
 Completed Project<br>
-<img src="image/planner.PNG" height="550">
+![Demo](https://user-images.githubusercontent.com/75114824/134806129-0ae7b5ac-3d6b-425a-bd9d-6be5ab9f2105.mp4)
