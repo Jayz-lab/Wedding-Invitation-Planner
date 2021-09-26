@@ -22,5 +22,6 @@ While you're going to use form input elements, you will not be submitting data t
 Wireframe<br>
 <img src="image/final.jpg" height="550">
 
-Completed Project<br>
-![Demo](https://user-images.githubusercontent.com/75114824/134806129-0ae7b5ac-3d6b-425a-bd9d-6be5ab9f2105.mp4)
+Completed Project Demo<br>
+
+https://user-images.githubusercontent.com/75114824/134806129-0ae7b5ac-3d6b-425a-bd9d-6be5ab9f2105.mp4
