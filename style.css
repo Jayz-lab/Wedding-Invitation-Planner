@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    width: 1000px;
-    margin: 0 auto;/*top-bottom, left-right automatically distribute the right amount of margin on either side*/
-}
+/*smooth scrolling
+html {
+    scroll-behavior: smooth; 
+}*/
 
 /* viewport heights scale to screen*/
 html, body, section, div {
     height: 100vh;
     width: auto;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;/*top-bottom, left-right automatically distribute the right amount of margin on either side*/
 }
 
 body {
@@ -29,7 +34,13 @@ h1 {
     padding-top: 15px;
     font-size: 1.75rem;
     margin: 0 auto;
-    text-shadow: 0 2px 2px #d3af1e;
+    text-shadow: 0 2px 2px white;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px auto;
+    font-style: italic;
 }
 
 /*horizontal rule css*/
@@ -41,7 +52,7 @@ hr {
 
 .btnGroup {
     text-align: center;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
 }
 
 /* Grid column begins */
@@ -62,11 +73,12 @@ hr {
 
 .right-half {
     background-color: rgb(177, 170, 170);
-    filter: brightness(.75);
+    filter: brightness(.70);
     box-shadow: 0 5px 7px 0 rgb(34, 60, 80, 0.16);
     grid-column: 2;
 }
 
+/*live typing image choices*/
 .image-wrapper {
 	justify-self: center; /*box justified inside its alignment container*/
 	position: relative;/*relative to normal position*/
@@ -130,3 +142,4 @@ footer, h3 {
     padding-top: 5px;
     padding-bottom: 7px;
 }
+
