@@ -20,7 +20,7 @@ While you're going to use form input elements, you will not be submitting data t
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wireframe<br>
-Initial idea
+<img src="image/final.jpg" height="550">
 
 Completed Project<br>
 <img src="image/planner.PNG" height="550">
