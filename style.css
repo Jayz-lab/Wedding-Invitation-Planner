@@ -67,6 +67,7 @@ hr {
     grid-column: 2;
 }
 
+/*live typing image choices*/
 .image-wrapper {
 	justify-self: center; /*box justified inside its alignment container*/
 	position: relative;/*relative to normal position*/
