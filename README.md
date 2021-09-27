@@ -21,13 +21,14 @@ While you're going to use form input elements, you will not be submitting data t
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wireframe
 - I wanted a simple design that meets the requirement for the project.
-- I decided to do away with some of the components in the final product.
-- I learnt lots building this.
+
 
 <img src="image/final.jpg" height="550">
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Completed Project Demo<br>
+- I decided to do away with some of the components in the final product.
+
 
 https://user-images.githubusercontent.com/75114824/134806129-0ae7b5ac-3d6b-425a-bd9d-6be5ab9f2105.mp4
