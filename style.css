@@ -58,6 +58,7 @@ hr {
 /* Grid column begins */
 .grid-col {
     display: grid;
+    gap: 0.5rem;
     grid-template-columns: 1fr 1fr;
     /*border: 2px solid black;*/
 }
@@ -69,6 +70,8 @@ hr {
     filter: brightness(.80);
     box-shadow: 0 5px 7px 0 rgb(34, 60, 80, 0.16);
     grid-column: 1;
+    /*border: 1px solid black;
+    border-radius: 10px;*/
 }
 
 .right-half {
@@ -76,6 +79,8 @@ hr {
     filter: brightness(.70);
     box-shadow: 0 5px 7px 0 rgb(34, 60, 80, 0.16);
     grid-column: 2;
+    /*border: 1px solid black;
+    border-radius: 5px;*/
 }
 
 /*live typing image choices*/
