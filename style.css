@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth; 
 }*/
 
-/* viewport heights scale to screen*/
+/* viewport heights scale to screen- fluid*/
 html, body, section, div {
     height: 100vh;
     width: auto;
@@ -64,10 +64,10 @@ hr {
 }
 
 .left-half {
-    background-color: grey;
+    /*background-color: grey;*/
     background: url(./image/bouquet.jpg);
-    opacity: o.5;
-    filter: brightness(.80);
+    opacity: 1;
+    /*filter: brightness(.80);*/
     box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);/* none|h-offset v-offset blur spread color*/
     grid-column: 1;
     border-radius: 10px;
@@ -76,8 +76,8 @@ hr {
 }
 
 .right-half {
-    background-color: rgb(177, 170, 170);
-    filter: brightness(.70);
+    /*background-color: rgb(177, 170, 170);*/
+    filter: brightness(0.80);/*text goes to center when removed*/
     box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
     grid-column: 2;
     border-radius: 10px;/*border-radius for grid-col*/
