@@ -68,7 +68,7 @@ hr {
     background: url(./image/bouquet.jpg);
     opacity: o.5;
     filter: brightness(.80);
-    box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
+    box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);/* none|h-offset v-offset blur spread color*/
     grid-column: 1;
     border-radius: 10px;
     /*border: 1px solid black;
