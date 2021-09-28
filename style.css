@@ -68,7 +68,7 @@ hr {
     background: url(./image/bouquet.jpg);
     opacity: o.5;
     filter: brightness(.80);
-    box-shadow: 0 5px 7px 0 rgb(34, 60, 80, 0.16);
+    box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
     grid-column: 1;
     /*border: 1px solid black;
     border-radius: 10px;*/
@@ -77,7 +77,7 @@ hr {
 .right-half {
     background-color: rgb(177, 170, 170);
     filter: brightness(.70);
-    box-shadow: 0 5px 7px 0 rgb(34, 60, 80, 0.16);
+    box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
     grid-column: 2;
     /*border: 1px solid black;
     border-radius: 5px*/
@@ -107,7 +107,7 @@ img {
     font-size: 25px;
     font-style: italic;
     font-family: Luminari;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);/*skew to center*/
     /*transform CSS property lets you rotate, scale, skew, or translate an element*/
     /*translate() CSS function repositions an element in the horizontal and/or vertical directions*/
 }
@@ -117,7 +117,7 @@ img {
     position: relative;
     /*top: 0%;*/
     text-align: center;
-    padding: 1rem;/*pad from button*/
+    padding: 1rem;/**/
 }
 
 /* Uniform size & alignment */

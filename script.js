@@ -48,11 +48,6 @@ function getVenue() {
 
 /*
 function getName() {
-    var nameStr = document.getElementById('name').value;
-    document.getElementById("initial").innerHTML = nameStr.substr(0,1).toUpperCase();
-};
-
-function getName() {
     console.log("I am activated");
     var nameStr = document.getElementById('name').value;
     document.getElementById("initial").innerHTML = nameStr.substr(0,1).toUpperCase();
