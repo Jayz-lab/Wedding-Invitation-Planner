@@ -70,6 +70,7 @@ hr {
     filter: brightness(.80);
     box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
     grid-column: 1;
+    border-radius: 10px;
     /*border: 1px solid black;
     border-radius: 10px;*/
 }
@@ -79,8 +80,13 @@ hr {
     filter: brightness(.70);
     box-shadow: 5px 10px 8px 0 rgb(34, 60, 80, 0.16);
     grid-column: 2;
+    border-radius: 10px;/*border-radius for grid-col*/
     /*border: 1px solid black;
     border-radius: 5px*/
+}
+
+#myImage {
+    border-radius: 10px;/*repeat border radius for src images*/
 }
 
 /*live typing image choices*/
