@@ -15,6 +15,8 @@ function changeBackground(color){
 */
 
 //image change- 3 choices- 3 functions
+//HTML DOM document getElementById() method with a specified value
+//In this case its getting the value from CSS ID 'myImage' 
 function design1(){
     document.getElementById('myImage')
     .src="/image/image1.jpg";
@@ -31,6 +33,8 @@ function design3(){
 }
 
 //Form field live text
+//getElementById() method from value in innerhtml
+//Displays value from <input>
 function getName() {
     var nam = document.getElementById('name').value;
     document.getElementById("input").innerHTML = "" + nam;
